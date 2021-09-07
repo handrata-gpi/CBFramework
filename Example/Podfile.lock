@@ -1,0 +1,16 @@
+PODS:
+  - CBFramework (0.1.0)
+
+DEPENDENCIES:
+  - CBFramework (from `../`)
+
+EXTERNAL SOURCES:
+  CBFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CBFramework: 25c52119f2c0c8995cf32eeae75c7b723b9c5b49
+
+PODFILE CHECKSUM: 8ac7042e09fa50ab255fc64e5b49478b4cfc7774
+
+COCOAPODS: 1.10.0

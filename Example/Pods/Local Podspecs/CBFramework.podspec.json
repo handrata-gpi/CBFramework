@@ -1,0 +1,22 @@
+{
+  "name": "CBFramework",
+  "version": "0.1.0",
+  "summary": "A short description of CBFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/handrata.febrianto/CBFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "handrata.febrianto": "handrata.febrianto@cashbac.com"
+  },
+  "source": {
+    "git": "https://github.com/handrata.febrianto/CBFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CBFramework/Classes/**/*"
+}

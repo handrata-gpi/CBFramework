@@ -1,0 +1,6 @@
+framework module Pods_CBFramework_Tests {
+  umbrella header "Pods-CBFramework_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
