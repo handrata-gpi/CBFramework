@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.swift_versions   = '4.0'
   s.description      = 'A short description of CBFramework.'
 
-  s.homepage         = 'https://github.com/handrata-gpi/CBFramework'
+  s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'handrata.febrianto' => 'handrata.febrianto@cashbac.com' }
@@ -32,11 +32,13 @@ Pod::Spec.new do |s|
   s.source_files = 'CBFramework/Classes/**/*'
   
   s.resource_bundles = {
-    'CBFramework' => ['CBFramework/Assets/*.png']
+    #'CBFramework' => ['CBFramework/Assets/*.png']
+    'CBFramework' => ['CBFramework/**/**/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
   s.dependency "Xendit", "2.1.8"
 end
