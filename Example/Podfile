@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CBFramework_Example' do
+  pod 'CBFramework', :path => '../'
+
+  target 'CBFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
