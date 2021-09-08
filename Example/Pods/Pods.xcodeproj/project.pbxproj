@@ -227,14 +227,14 @@
 		674BF66C26E734060004B51B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				674BF66D26E734060004B51B /* PaymentMethodListViewController.xib */,
-				674BF66E26E734060004B51B /* PaymentMethodListViewController.swift */,
 				674BF66F26E734060004B51B /* .gitkeep */,
-				674BF67026E734060004B51B /* PaymentPageViewController.xib */,
 				674BF67226E734060004B51B /* CashbacFrameworkSDK.swift */,
-				674BF67326E734060004B51B /* PaymentHistoryViewController.xib */,
 				674BF67426E734060004B51B /* PaymentHistoryViewController.swift */,
+				674BF67326E734060004B51B /* PaymentHistoryViewController.xib */,
+				674BF66E26E734060004B51B /* PaymentMethodListViewController.swift */,
+				674BF66D26E734060004B51B /* PaymentMethodListViewController.xib */,
 				674BF67526E734060004B51B /* PaymentPageViewController.swift */,
+				674BF67026E734060004B51B /* PaymentPageViewController.xib */,
 			);
 			name = Classes;
 			path = CBFramework/Classes;
@@ -530,6 +530,7 @@
 				PRODUCT_NAME = CBFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,6 +566,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -664,6 +666,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -697,6 +700,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -729,6 +733,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -757,6 +762,7 @@
 				PRODUCT_NAME = CBFramework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import CBFramework
+import CBFramework
 
 class ViewController: UIViewController {
     @IBOutlet weak var lblBalance: UILabel!
@@ -17,17 +17,17 @@ class ViewController: UIViewController {
     let userId = "user001"
     
     var cbToken: String = ""
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
-//        cbToken = CashbacFrameworkSDK.configure(withPubKey: pubKey,
-//                                                partnerPubId: partnerPubId,
-//                                                userIdentifier: userId)
-//        lblBalance.text = "\(CashbacFrameworkSDK.sharedInstance.getBalance().intValue)"
+        
+        cbToken = CashbacFrameworkSDK.configure(withPubKey: pubKey,
+                                                partnerPubId: partnerPubId,
+                                                userIdentifier: userId)
+        lblBalance.text = "\(CashbacFrameworkSDK.sharedInstance.getBalance().intValue)"
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,14 +36,14 @@ class ViewController: UIViewController {
 
 extension ViewController {
     @IBAction func btnPaymentMethodAction() {
-        //CashbacFrameworkSDK.sharedInstance.showPaymentMethodList(cbToken, parentViewController: self)
+        CashbacFrameworkSDK.sharedInstance.showPaymentMethodList(token: cbToken, parentViewController: self)
     }
     
     @IBAction func btnPayWithCashbacAction() {
-        //CashbacFrameworkSDK.sharedInstance.showPaymentPage(cbToken, parentViewController: self)
+        CashbacFrameworkSDK.sharedInstance.showPaymentPage(token: cbToken, parentViewController: self)
     }
     
     @IBAction func btnTransactionHistoryAction() {
-        //CashbacFrameworkSDK.sharedInstance.showPaymentHistory(cbToken, parentViewController: self)
+        CashbacFrameworkSDK.sharedInstance.showPaymentHistory(token: cbToken, parentViewController: self)
     }
 }

@@ -32,7 +32,7 @@ open class CashbacFrameworkSDK: NSObject {
     public func showPaymentMethodList(token: String, parentViewController vc: UIViewController) {
         let paymentMethodListVC = PaymentMethodListViewController()
         let navController = UINavigationController(rootViewController: paymentMethodListVC)
-        vc.present(navController, animated: true, completion: nil)
+        vc.navigationController?.present(navController, animated: true, completion: nil)
     }
     
     public func showPaymentPage(token: String, parentViewController vc: UIViewController) {
