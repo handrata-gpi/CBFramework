@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   
   s.resource_bundles = {
     #'CBFramework' => ['CBFramework/Assets/*.png']
-    'CBFramework' => ['CBFramework/**/**/*']
+    'CBFramework' => ['CBFramework/**/**/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

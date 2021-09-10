@@ -12,6 +12,7 @@
 		2E4BFFAA2502D819BC52019D9B68A80B /* Pods-CBFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79642E80E3CCBC45CE57B197725E68E1 /* Pods-CBFramework_Tests-dummy.m */; };
 		4069F5FF6F3EABFE80498EF6A11C854C /* CBFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C0CAF07635E51E4A601104DBA9DBF5 /* CBFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8A6181375A1B9E42FB98245921FE60 /* CBFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17308C40AAB605E9AE6BC4B87FE61EB6 /* CBFramework-dummy.m */; };
+		673EA62226E9C6AD00E08F22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673EA62126E9C6AD00E08F22 /* UIKit.framework */; };
 		674BF67626E734060004B51B /* ic-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 674BF66926E734060004B51B /* ic-close.png */; };
 		674BF67726E734060004B51B /* ic-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 674BF66926E734060004B51B /* ic-close.png */; };
 		674BF67826E734060004B51B /* ic-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 674BF66926E734060004B51B /* ic-close.png */; };
@@ -80,6 +81,7 @@
 		51706AF7233A2AE6B3A52BE37B0B2BDC /* Pods-CBFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CBFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		54EEA3C608A3D82A49146B2DC02CF6B7 /* Pods-CBFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		6224AB633D7157BCB8949FD7E2B571CD /* CBFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CBFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		673EA62126E9C6AD00E08F22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		674BF66926E734060004B51B /* ic-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-close.png"; sourceTree = "<group>"; };
 		674BF66A26E734060004B51B /* ic-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-back.png"; sourceTree = "<group>"; };
 		674BF66B26E734060004B51B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673EA62226E9C6AD00E08F22 /* UIKit.framework in Frameworks */,
 				7E2B0C6447EDFC30BB9F6EBC7BB89D52 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +266,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				673EA62126E9C6AD00E08F22 /* UIKit.framework */,
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
