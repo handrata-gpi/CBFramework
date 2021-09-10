@@ -30,20 +30,30 @@ open class CashbacFrameworkSDK: NSObject {
     }
     
     public func showPaymentMethodList(token: String, parentViewController vc: UIViewController) {
-        let paymentMethodListVC = PaymentMethodListViewController()
-        let navController = UINavigationController(rootViewController: paymentMethodListVC)
-        vc.navigationController?.present(navController, animated: true, completion: nil)
+        if let bundle = Bundle(identifier: "org.cocoapods.CBFramework") {
+            let paymentMethodListVC = PaymentMethodListViewController(nibName: "PaymentMethodListViewController", bundle: bundle)
+            let navController = UINavigationController(rootViewController: paymentMethodListVC)
+            navController.setNavigationBarHidden(true, animated: false)
+            vc.navigationController?.present(navController, animated: true, completion: nil)
+        }
     }
     
     public func showPaymentPage(token: String, parentViewController vc: UIViewController) {
-        let paymentPageVC = PaymentPageViewController()
-        let navController = UINavigationController(rootViewController: paymentPageVC)
-        vc.present(navController, animated: true, completion: nil)
+        if let bundle = Bundle(identifier: "org.cocoapods.CBFramework") {
+            let paymentPageVC = PaymentPageViewController(nibName: "PaymentPageViewController", bundle: bundle)
+            let navController = UINavigationController(rootViewController: paymentPageVC)
+            navController.setNavigationBarHidden(true, animated: false)
+            vc.present(navController, animated: true, completion: nil)
+        }
+        
     }
     
     public func showPaymentHistory(token: String, parentViewController vc: UIViewController) {
-        let paymentHistoryVC = PaymentHistoryViewController()
-        let navController = UINavigationController(rootViewController: paymentHistoryVC)
-        vc.present(navController, animated: true, completion: nil)
+        if let bundle = Bundle(identifier: "org.cocoapods.CBFramework") {
+            let paymentHistoryVC = PaymentHistoryViewController(nibName: "PaymentHistoryViewController", bundle: bundle)
+            let navController = UINavigationController(rootViewController: paymentHistoryVC)
+            navController.setNavigationBarHidden(true, animated: false)
+            vc.present(navController, animated: true, completion: nil)
+        }
     }
 }
