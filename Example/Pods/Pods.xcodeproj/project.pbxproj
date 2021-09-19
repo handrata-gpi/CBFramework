@@ -46,6 +46,9 @@
 		674BF69726E734060004B51B /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BF67526E734060004B51B /* PaymentPageViewController.swift */; };
 		674BF69826E734060004B51B /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BF67526E734060004B51B /* PaymentPageViewController.swift */; };
 		674BF69926E734060004B51B /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BF67526E734060004B51B /* PaymentPageViewController.swift */; };
+		67951B6026F78CF9000D7214 /* AddCardXdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67951B5F26F78CF9000D7214 /* AddCardXdViewController.swift */; };
+		67951B6126F78CF9000D7214 /* AddCardXdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67951B5F26F78CF9000D7214 /* AddCardXdViewController.swift */; };
+		67951B6226F78CF9000D7214 /* AddCardXdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67951B5F26F78CF9000D7214 /* AddCardXdViewController.swift */; };
 		7E2B0C6447EDFC30BB9F6EBC7BB89D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A4F41B76329EB5C5E3736A6AEF4B3FF8 /* Pods-CBFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D06E050E966B7DC639E156B5B1641F5 /* Pods-CBFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5AE05B09910688B92DBD1965D10EBA8 /* Pods-CBFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 741BCE43CB1A149521F2AAB865CDB786 /* Pods-CBFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -93,6 +96,7 @@
 		674BF67326E734060004B51B /* PaymentHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentHistoryViewController.xib; sourceTree = "<group>"; };
 		674BF67426E734060004B51B /* PaymentHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentHistoryViewController.swift; sourceTree = "<group>"; };
 		674BF67526E734060004B51B /* PaymentPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentPageViewController.swift; sourceTree = "<group>"; };
+		67951B5F26F78CF9000D7214 /* AddCardXdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardXdViewController.swift; sourceTree = "<group>"; };
 		6CC4964D353CA2D6359D0E98D5370BFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F599007420D1AD743D841557CCE6A58 /* CBFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -238,6 +242,7 @@
 				674BF66D26E734060004B51B /* PaymentMethodListViewController.xib */,
 				674BF67526E734060004B51B /* PaymentPageViewController.swift */,
 				674BF67026E734060004B51B /* PaymentPageViewController.xib */,
+				67951B5F26F78CF9000D7214 /* AddCardXdViewController.swift */,
 			);
 			name = Classes;
 			path = CBFramework/Classes;
@@ -464,6 +469,7 @@
 			files = (
 				674BF68F26E734060004B51B /* CashbacFrameworkSDK.swift in Sources */,
 				674BF69826E734060004B51B /* PaymentPageViewController.swift in Sources */,
+				67951B6126F78CF9000D7214 /* AddCardXdViewController.swift in Sources */,
 				674BF69526E734060004B51B /* PaymentHistoryViewController.swift in Sources */,
 				674BF68326E734060004B51B /* PaymentMethodListViewController.swift in Sources */,
 				D08FBB3478DF5C16879BD60AAA1CD88F /* Pods-CBFramework_Example-dummy.m in Sources */,
@@ -476,6 +482,7 @@
 			files = (
 				674BF68E26E734060004B51B /* CashbacFrameworkSDK.swift in Sources */,
 				674BF69726E734060004B51B /* PaymentPageViewController.swift in Sources */,
+				67951B6026F78CF9000D7214 /* AddCardXdViewController.swift in Sources */,
 				674BF69426E734060004B51B /* PaymentHistoryViewController.swift in Sources */,
 				674BF68226E734060004B51B /* PaymentMethodListViewController.swift in Sources */,
 				4A8A6181375A1B9E42FB98245921FE60 /* CBFramework-dummy.m in Sources */,
@@ -488,6 +495,7 @@
 			files = (
 				674BF69026E734060004B51B /* CashbacFrameworkSDK.swift in Sources */,
 				674BF69926E734060004B51B /* PaymentPageViewController.swift in Sources */,
+				67951B6226F78CF9000D7214 /* AddCardXdViewController.swift in Sources */,
 				674BF69626E734060004B51B /* PaymentHistoryViewController.swift in Sources */,
 				674BF68426E734060004B51B /* PaymentMethodListViewController.swift in Sources */,
 				2E4BFFAA2502D819BC52019D9B68A80B /* Pods-CBFramework_Tests-dummy.m in Sources */,
