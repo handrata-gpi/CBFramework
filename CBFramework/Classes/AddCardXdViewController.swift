@@ -21,7 +21,7 @@ class AddCardXdViewController: UIViewController {
     var finalTokenId: String!
     var finalAuthId: String!
     var hitOnce: Bool = false
-    //var parentController: FormAddCardViewController!
+    var parentController: UIViewController!
 
     func cancel() {
         // btnCancel.removeFromSuperview()
@@ -40,10 +40,8 @@ class AddCardXdViewController: UIViewController {
         }
         if let tokenID = finalTokenId,
            let authId = finalAuthId,
-           self.delegate != nil,
            tokenID.count > 0,
            authId.count > 0 {
-            self.delegate.didXendit3ds(tokenID, authId, self)
         }
     }
 
@@ -58,36 +56,35 @@ class AddCardXdViewController: UIViewController {
         cardData.isMultipleUse = true
 
         Xendit.createToken(fromViewController: self.parentController, cardData: cardData) { (token, error) in
-            APIManager.performSelector(onMainThread: #selector(APIManager.hideLoading), with: nil, waitUntilDone: true)
             let localTokenId = token?.id ?? ""
             let localAuthId = token?.authenticationId ?? ""
-            Dlog("xendit token : \(localTokenId)/\(localAuthId)")
+            print("xendit token : \(localTokenId)/\(localAuthId)")
             if let error = error {
                 // Handle error. Error is of type XenditError
                 self.onError(error.message, "request multitoken", error.errorCode, localTokenId, localAuthId)
             } else if let token = token,
                       let status = token.status,
-                      status.isEqualLowercased("VERIFIED") {
-                Dlog("xendit success \(localTokenId)")
+                      status.lowercased() == "VERIFIED".lowercased() {
+                print("xendit success \(localTokenId)")
                 // need to call 3ds function
-                AddCardXenditViewController.call3dsWith(isThreshold: false,
-                                                        tokenId: localTokenId,
-                                                        authId: localAuthId,
-                                                        parentController: self.parentController,
-                                                        amount: cardData.amount,
-                                                        didSuccess: { newToken, newAuthID in
-                                                            self.finalTokenId = newToken
-                                                            self.finalAuthId = newAuthID
-                                                            DispatchQueue.main.async {
-                                                                self.cancel()
-                                                            }
-                                                        }, didError: {error in
-                                                            self.onError(error.message, "create authentication", error.errorCode, localTokenId, localAuthId)
-                                                        }, didCancel: {
-                                                            DispatchQueue.main.async {
-                                                                self.cancel()
-                                                            }
-                                                        })
+                AddCardXdViewController.call3dsWith(isThreshold: false,
+                                                    tokenId: localTokenId,
+                                                    authId: localAuthId,
+                                                    parentController: self.parentController,
+                                                    amount: cardData.amount,
+                                                    didSuccess: { newToken, newAuthID in
+                                                        self.finalTokenId = newToken
+                                                        self.finalAuthId = newAuthID
+                                                        DispatchQueue.main.async {
+                                                            self.cancel()
+                                                        }
+                                                    }, didError: {error in
+                                                        self.onError(error.message, "create authentication", error.errorCode, localTokenId, localAuthId)
+                                                    }, didCancel: {
+                                                        DispatchQueue.main.async {
+                                                            self.cancel()
+                                                        }
+                                                    })
             }
         }
     }
@@ -101,44 +98,34 @@ class AddCardXdViewController: UIViewController {
             let errorDic: [String: Any] = [
                 "action": reason,
                 "cardNumber": "\(first6)#\(last4)",
-                "userPubId": APIManager.userModel.id,
                 "messageFromXendit": message,
                 "errorCode": errorCode,
-                "platform": "iOS",
-                "podVersion": xenditVersion
+                "platform": "iOS"
             ]
             print("error Dic", errorDic)
         }
-        UIAlertController.simpleShow(nil, message, "Cancel", handler: { (alert) in
-            // self.navigationController?.popViewController(animated: true)
-        }, "", handler2: { (alert) in
-            // do nothing
-        }, self)
     }
 
-    static func call3dsWith(isThreshold: Bool, tokenId: String, authId: String, parentController: BaseViewController, amount: NSNumber, didSuccess: @escaping (String, String) -> Void, didError: @escaping (XenditError) -> Void, didCancel: @escaping() -> Void) {
+    static func call3dsWith(isThreshold: Bool, tokenId: String, authId: String, parentController: UIViewController, amount: NSNumber, didSuccess: @escaping (String, String) -> Void, didError: @escaping (XenditError) -> Void, didCancel: @escaping() -> Void) {
 //        #if DEBUG
 //        didSuccess(tokenId, "test")
 //        #else
         Xendit.publishableKey = xenditPK
         Xendit.createAuthentication(fromViewController: parentController, tokenId: tokenId, amount: amount, completion: {(authentication, error) in
-            Dlog("xendit token : \(tokenId)/\(authentication?.id ?? "")")
+            print("xendit token : \(tokenId)/\(authentication?.id ?? "")")
             if let error = error {
                 // Handle error. Error is of type XenditError
-                self.pushAnalyticsXendit(tokenId, authId, "failed", isThreshold)
                 didError(error)
             } else {
                 // success
                 if let authentication = authentication,
                    let status = authentication.status,
-                   status.isEqualLowercased("VERIFIED") {
+                   status.lowercased() == "VERIFIED".lowercased() {
                     // Handle successful authentication
-                    Dlog("xendit success aut \(String(describing: authentication.id)))")
-                    self.pushAnalyticsXendit(tokenId, authentication.id, "success", isThreshold)
+                    print("xendit success aut \(String(describing: authentication.id)))")
                     didSuccess(tokenId, authentication.id)
                 } else {
-                    Dlog("xendit cancel auth or failed")
-                    self.pushAnalyticsXendit(tokenId, authId, "failed", isThreshold)
+                    print("xendit cancel auth or failed")
                     didCancel()
                 }
             }
