@@ -22,7 +22,15 @@ extension PaymentMethodListViewController {
     }
 
     @IBAction func btnLinkCardAction() {
-        let vc = UIViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+        if let bundle = Bundle(identifier: "org.cocoapods.CBFramework") {
+            let vc = AddCardXdViewController(nibName: "AddCardXenditViewController", bundle: nil)
+            vc.parentController = self
+            vc.name = "USER"
+            vc.number = "4000000000000002"
+            vc.cvv = "123"
+            vc.expDateMonth = "12"
+            vc.expDateYear = "2030"
+            vc.startXendit()
+        }
     }
 }
