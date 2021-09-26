@@ -1,0 +1,11 @@
+framework module CBFramework {
+  umbrella header "CBFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CBFramework.Swift {
+    header "CBFramework-Swift.h"
+    requires objc
+}

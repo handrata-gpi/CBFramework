@@ -1,0 +1,6 @@
+framework module Xendit {
+  umbrella header "Xendit-umbrella.h"
+
+  export *
+  module * { export * }
+}

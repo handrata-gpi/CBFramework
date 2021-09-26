@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CBFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'CBFramework.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'CBFramework/Classes/**/*'
+  #s.source_files = 'CBFramework/Classes/**/*'
+  s.exclude_files = 'CBFramework/Classes/**/*'
+  s.ios.vendored_frameworks = 'CBFramework/CBFramework.framework'
   
-  s.resource_bundles = {
+  #s.resource_bundles = {
     #'CBFramework' => ['CBFramework/Assets/*.png']
-    'CBFramework' => ['CBFramework/**/**/*.{storyboard,xib,xcassets,json,imageset,png}']
-  }
+  #  'CBFramework' => ['CBFramework/**/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

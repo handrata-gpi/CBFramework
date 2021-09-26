@@ -1,15 +1,22 @@
 PODS:
-  - CBFramework (0.1.0)
+  - CBFramework (0.1.0):
+    - Xendit (= 2.1.8)
+  - Xendit (2.1.8)
 
 DEPENDENCIES:
   - CBFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Xendit
 
 EXTERNAL SOURCES:
   CBFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CBFramework: 25c52119f2c0c8995cf32eeae75c7b723b9c5b49
+  CBFramework: 7bbeab649d5ddc4384156526db595df1c9e17733
+  Xendit: 8dbd80a352ce1c55c3c48413155cb84cf112e775
 
 PODFILE CHECKSUM: 8ac7042e09fa50ab255fc64e5b49478b4cfc7774
 
