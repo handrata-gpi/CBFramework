@@ -123,7 +123,7 @@
 		629317579BCD8A5A83A55C4802E62DC7 /* AddCardXdViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddCardXdViewController.swift; path = CBFramework/Classes/AddCardXdViewController.swift; sourceTree = "<group>"; };
 		633CEF20C4742A3E8BDB84D9A0F5E5CC /* CardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardData.swift; path = Xendit/Models/CardData.swift; sourceTree = "<group>"; };
 		6697EDB4E2022B4EA6F835DC20B19BF1 /* AuthenticationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationData.swift; path = Xendit/Models/AuthenticationData.swift; sourceTree = "<group>"; };
-		67A97B3626FC436100A9F030 /* CBFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBFramework.framework; path = CBFramework/CBFramework.framework; sourceTree = "<group>"; };
+		67BF4A9227015A680066C674 /* CBFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBFramework.framework; path = CBFramework/CBFramework.framework; sourceTree = "<group>"; };
 		6D8A22FE9061E15AD726E87B0F2D5703 /* Xendit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xendit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E93A776E290BE2B2917A440EBAA529C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6F599007420D1AD743D841557CCE6A58 /* CBFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -380,7 +380,7 @@
 				CB7AFA7CE8D28749878C2FFC666134A0 /* PaymentMethodListViewController.xib */,
 				8D5903C3E6F159F4DCE13701C0FDD54C /* PaymentPageViewController.swift */,
 				5C7CCCE071CAC0AD89040C33BFD88323 /* PaymentPageViewController.xib */,
-				67A97B3626FC436100A9F030 /* CBFramework.framework */,
+				67BF4A9227015A680066C674 /* CBFramework.framework */,
 				65565ACABFC7B29F0F50261A8D6671F1 /* Assets */,
 				110E07AC2818E90A5597C5FA4DD9C49D /* Pod */,
 				E2050A3B67284415BD837BA31F0C5736 /* Support Files */,
