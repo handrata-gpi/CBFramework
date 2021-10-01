@@ -6,87 +6,75 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0CF9F7573B46B7273AE427238FBA1A05 /* CBFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 470F2DF542CA27DAB72B5FCA6DEA8D5B /* Build configuration list for PBXAggregateTarget "CBFramework" */;
+			buildPhases = (
+			);
+			dependencies = (
+				57EAD5F917C1E1998768EB163C1C7C2F /* PBXTargetDependency */,
+			);
+			name = CBFramework;
+			productName = CBFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		10FDA89817CA2D86140879791ED8A597 /* AddCardXdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629317579BCD8A5A83A55C4802E62DC7 /* AddCardXdViewController.swift */; };
-		125D1A2B4FA5BA7A0D6C49924C02CCFA /* IDFAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6031A619944F67CA4F61554D7DF80 /* IDFAHelper.m */; };
-		164A11DDB716E7DB6239284EDBC1D908 /* Xendit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF4E569A52115DFF9E58A777E87105 /* Xendit.swift */; };
-		193735C25FA938092018C1AFFFC97CE7 /* XenditAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14A880AEBEFADA388D410B92A0ED /* XenditAuthentication.swift */; };
-		1C3DE6612CEE9C577B2F09887E872CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA17BBB35B5C8A3863E79AC3C406C9A /* Foundation.framework */; };
-		213E8F32088E1FFD09769EC12706244A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FF7A52B9B64F0A8CDFD6939F189D97 /* UIKit.framework */; };
-		2D1CC99C45F28DDA5C1D934948131904 /* ic-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E7EA0C3E6160659794192D57CC147E /* ic-close.png */; };
+		0221EA45B144BBFF735B0122FA984B5E /* Xendit3DSRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F962143F81DA4CF13D1581A977B80 /* Xendit3DSRecommendation.swift */; };
+		0E004AD3849C1AB644241D86C32783E1 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABCDC4294171D2C4B69E7800DCB9755 /* Log.swift */; };
+		1A7A0E6C8A4DFA437CB367E412F3080E /* XenditAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C14A880AEBEFADA388D410B92A0ED /* XenditAuthentication.swift */; };
+		1C3DE6612CEE9C577B2F09887E872CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2E4BFFAA2502D819BC52019D9B68A80B /* Pods-CBFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79642E80E3CCBC45CE57B197725E68E1 /* Pods-CBFramework_Tests-dummy.m */; };
-		3C28BDBCF4E0D5C19F76F3717C11E48D /* Xendit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758FF22453493686666DB1E830119204 /* Xendit-dummy.m */; };
-		3EACB0FA2058ED40C8366889CA54A581 /* XenditCCToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC74AA1DCC712445A4243967E31CA5 /* XenditCCToken.swift */; };
-		40F04870E8054212FA0D6A822BDC7D01 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633CEF20C4742A3E8BDB84D9A0F5E5CC /* CardData.swift */; };
-		4118C58C1EAE5A27EEBF365FAC005A62 /* PaymentPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7CCCE071CAC0AD89040C33BFD88323 /* PaymentPageViewController.xib */; };
-		4544DDBE7DF97E9C8E34FC353FC004EF /* ic-back.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9797E3FB087F6681F9266B4335CE2C /* ic-back.png */; };
-		4F14A525B2B9B0DBED53A58F7097158A /* CBFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61841ED59F71CB078C9155434AA556A2 /* CBFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3859EDD881220DBA0DA76BBE13991CEB /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633CEF20C4742A3E8BDB84D9A0F5E5CC /* CardData.swift */; };
+		410365496CEF12D46A08AE7D238FD681 /* Fingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6833DC141E84C830122C854079F052B /* Fingerprint.swift */; };
 		4FC3813A538DDDD57CB63F323349A0CC /* Pods-CBFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 741BCE43CB1A149521F2AAB865CDB786 /* Pods-CBFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5359093AAAC9915274B363A95BAFAA14 /* CashbacFrameworkSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEDF8A63398D9D8386F560B7581F01 /* CashbacFrameworkSDK.swift */; };
-		578B6356AB1FA36E39E41FDB2541B44D /* WebViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0BE417D3429DD125BF325F6EE54D5 /* WebViewConstants.swift */; };
-		5E6302BEBDCEE974ECB9D7A27AB37AE6 /* PaymentPageViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5C7CCCE071CAC0AD89040C33BFD88323 /* PaymentPageViewController.xib */; };
-		5FB9901E4F888110E7A88C4AA8E29116 /* AuthenticationWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F42525C344B5657971420D018AAE88 /* AuthenticationWebviewController.swift */; };
-		613E2B75A09AD768216DFB50E2134FDE /* LogSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604710342A327DF366ABE6084FFA874A /* LogSanitizer.swift */; };
-		6256C5FB9E8DB88BC6865930710D3637 /* Xendit.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8D9FDA2A3FD736BA730188A0D6B4D5 /* Xendit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6439499CA0A8DA3769CA0507F75F984C /* PaymentHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AEC0EF6095D8F33221905A2C21C1ED /* PaymentHistoryViewController.xib */; };
-		694ADAB92F6B2B4D96CBDD2D619F8D0A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF795796A3F96094A58D4F811CACD47 /* WebViewController.swift */; };
-		6BE20E4519E210AE9DE7EA0F8958D74E /* CBFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EE3C51F27AA61959BAEE306163F838 /* CBFramework.bundle */; };
-		6CB58E6D75165B5AFE913FAA6D0ED474 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8947521C15ACCD2DA8FB3DFA56E9C1 /* Extensions.swift */; };
-		70B0F1CE577F4E3EF7EEE63C8DE2645F /* Xendit3DSRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021F962143F81DA4CF13D1581A977B80 /* Xendit3DSRecommendation.swift */; };
-		7909C176A81C5F2AF33484B53D752E9C /* AuthenticationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697EDB4E2022B4EA6F835DC20B19BF1 /* AuthenticationData.swift */; };
+		5C1B3D3DDEF50800FA805C58236603EC /* AuthenticationWebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F42525C344B5657971420D018AAE88 /* AuthenticationWebviewController.swift */; };
+		5CC955F52AB146814CBAF4A6DBC47F72 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF795796A3F96094A58D4F811CACD47 /* WebViewController.swift */; };
+		7AB9020E4CBF654CFB41B54316327473 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8947521C15ACCD2DA8FB3DFA56E9C1 /* Extensions.swift */; };
 		8210744EFB4AF07C88C4D95E18BA8265 /* Pods-CBFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EEA3C608A3D82A49146B2DC02CF6B7 /* Pods-CBFramework_Example-dummy.m */; };
-		83199960AE187000114A701DDD1EB398 /* ISHLogDNAService.h in Headers */ = {isa = PBXBuildFile; fileRef = 907131899FE6F26B1F018EAD76CF1188 /* ISHLogDNAService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85A181F7DEF1BF0EABA6775FB0705FFE /* ISHLogDNAService.m in Sources */ = {isa = PBXBuildFile; fileRef = E1953C29B22A843F969FB32999F1CA68 /* ISHLogDNAService.m */; };
-		8653E70BB1D4F8BEF5512A0314DBA063 /* PaymentMethodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBAC4FA75385AA4A1A894FF5E8DFBC /* PaymentMethodListViewController.swift */; };
-		865BEBB8D6821AADFC0D461960E59DD3 /* XenditTokenCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA57B482B97EFD802E30CA7563ABB097 /* XenditTokenCredentials.swift */; };
-		866AD59946427B6FB8658DF42BCDBD51 /* PaymentMethodListViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = CB7AFA7CE8D28749878C2FFC666134A0 /* PaymentMethodListViewController.xib */; };
+		843DD7DDAD1279CBE61ABAD2F9E71603 /* XenditCCToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AC74AA1DCC712445A4243967E31CA5 /* XenditCCToken.swift */; };
+		8CB4AB964912BCD31389F466CC39CA66 /* Xendit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758FF22453493686666DB1E830119204 /* Xendit-dummy.m */; };
+		928365BB9490B7CFF55F8B78EB4306FF /* IDFAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6031A619944F67CA4F61554D7DF80 /* IDFAHelper.m */; };
+		9312DE84D38F1C217FF7582671323ACA /* XenditError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E6A9AE64B805703C4FF5604717F84F /* XenditError.swift */; };
 		A4F41B76329EB5C5E3736A6AEF4B3FF8 /* Pods-CBFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D06E050E966B7DC639E156B5B1641F5 /* Pods-CBFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A74357927CA04EA9247497A4808D7395 /* IDFAHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D07C147A9360FC01BEA19E079B93BEC /* IDFAHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7EBADC40379AB4DDF2836AADA2CB411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA17BBB35B5C8A3863E79AC3C406C9A /* Foundation.framework */; };
-		B0196E028BF652779388F9E605CCDD9B /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5903C3E6F159F4DCE13701C0FDD54C /* PaymentPageViewController.swift */; };
-		B0CEC0E581ADEB62A4130D43949E6EBC /* PaymentMethodListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7AFA7CE8D28749878C2FFC666134A0 /* PaymentMethodListViewController.xib */; };
-		B896E0BF9CF50A8075FE1141142AD5A2 /* PaymentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2294994BC669B92318BB75D1989EB /* PaymentHistoryViewController.swift */; };
-		C029EF19231F89638FB60AA5C3C45549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA17BBB35B5C8A3863E79AC3C406C9A /* Foundation.framework */; };
-		C3A8F236826E94931D323BC318247281 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABCDC4294171D2C4B69E7800DCB9755 /* Log.swift */; };
-		CA2EFD345C8E98E50BA684F9C4787255 /* Xendit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8A22FE9061E15AD726E87B0F2D5703 /* Xendit.framework */; };
-		CA9D3E08747DB98C27E4A82BEE32CF86 /* XenditError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E6A9AE64B805703C4FF5604717F84F /* XenditError.swift */; };
-		D75450FA3DA6F48F472CFD55AACB3AFA /* CBFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48157FF78CA4925BCD6E72796288912E /* CBFramework-dummy.m */; };
-		DCC619BF1C4C0AA5D59E1BECCF9CA10C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA17BBB35B5C8A3863E79AC3C406C9A /* Foundation.framework */; };
-		E949B70804D90B0773D1D8016EBBC1B6 /* Fingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6833DC141E84C830122C854079F052B /* Fingerprint.swift */; };
-		FA50DE5D6BD9AE608C3D3688179A6A0E /* Xendit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF9FEC4852EC21E93072B0E6934D06 /* Xendit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF7C975A26E9A9915C48B127F9E3E561 /* PaymentHistoryViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D4AEC0EF6095D8F33221905A2C21C1ED /* PaymentHistoryViewController.xib */; };
+		B2CE7181FCA9FF1CA5E9E1A7FE4F276E /* ISHLogDNAService.h in Headers */ = {isa = PBXBuildFile; fileRef = 907131899FE6F26B1F018EAD76CF1188 /* ISHLogDNAService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39BAF25FEE1537ECD3448EA980A3ABA /* Xendit.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8D9FDA2A3FD736BA730188A0D6B4D5 /* Xendit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B804558510882DF2137BD5433C08EB35 /* Xendit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF9FEC4852EC21E93072B0E6934D06 /* Xendit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA01B434613F13F10074149FC35BEABA /* XenditTokenCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA57B482B97EFD802E30CA7563ABB097 /* XenditTokenCredentials.swift */; };
+		C029EF19231F89638FB60AA5C3C45549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C217AFA28C79205504B38E838DD41428 /* Xendit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF4E569A52115DFF9E58A777E87105 /* Xendit.swift */; };
+		C992F0643EADA00105E7B39D9B1C72BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD0CAC6DD077ED2826513FF4B96D18D5 /* WebViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0BE417D3429DD125BF325F6EE54D5 /* WebViewConstants.swift */; };
+		DC853088B3AB83A96A512919A62E0099 /* ISHLogDNAService.m in Sources */ = {isa = PBXBuildFile; fileRef = E1953C29B22A843F969FB32999F1CA68 /* ISHLogDNAService.m */; };
+		E40099E5CDD1E71851979554C218FBD1 /* AuthenticationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6697EDB4E2022B4EA6F835DC20B19BF1 /* AuthenticationData.swift */; };
+		E9666152F89F89D958C6364D9B8F0760 /* LogSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604710342A327DF366ABE6084FFA874A /* LogSanitizer.swift */; };
+		FEAE3873569B1FA300ED97F585EFABED /* IDFAHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D07C147A9360FC01BEA19E079B93BEC /* IDFAHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5A0480893E9F5C6243F9018F9E3E7343 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 67FB6BA776CF391F4A475554B5620AD9;
-			remoteInfo = "CBFramework-CBFramework";
-		};
-		802846942AB38A278BE8DAF9D88EF9B4 /* PBXContainerItemProxy */ = {
+		243830CF0A633ED600144882EF4F0602 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4F12DD83FE234840A1AE8CD56066CC2C;
 			remoteInfo = Xendit;
 		};
-		8479DA6DFB9A3B97D7333F9CCBD85099 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD83B7BEAE346FEA293B90531E2479FF;
-			remoteInfo = "Pods-CBFramework_Example";
-		};
-		8BEECAE36CC19C5763C2782848B4BB10 /* PBXContainerItemProxy */ = {
+		2A43FC99BA7212B004C10523D013BE3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0CF9F7573B46B7273AE427238FBA1A05;
 			remoteInfo = CBFramework;
 		};
-		B75BE721431BC18E62BDBEBE4BEE63FD /* PBXContainerItemProxy */ = {
+		5424B00A16A81378D733CAD05EE46DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD83B7BEAE346FEA293B90531E2479FF;
+			remoteInfo = "Pods-CBFramework_Example";
+		};
+		581A4ED517DF02620C123058D695BAAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -96,46 +84,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01BEDF8A63398D9D8386F560B7581F01 /* CashbacFrameworkSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashbacFrameworkSDK.swift; path = CBFramework/Classes/CashbacFrameworkSDK.swift; sourceTree = "<group>"; };
-		01DBAC4FA75385AA4A1A894FF5E8DFBC /* PaymentMethodListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethodListViewController.swift; path = CBFramework/Classes/PaymentMethodListViewController.swift; sourceTree = "<group>"; };
 		021F962143F81DA4CF13D1581A977B80 /* Xendit3DSRecommendation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Xendit3DSRecommendation.swift; path = Xendit/Models/Xendit3DSRecommendation.swift; sourceTree = "<group>"; };
 		04C6031A619944F67CA4F61554D7DF80 /* IDFAHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDFAHelper.m; path = Xendit/Utils/IDFAHelper.m; sourceTree = "<group>"; };
 		09C793E93AFAB2B44EEDC05300990B0A /* Pods-CBFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		11323D3E08BC39E709DC3CBE1BC027CC /* ResourceBundle-CBFramework-CBFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CBFramework-CBFramework-Info.plist"; sourceTree = "<group>"; };
 		14C11621F9FF851A4C503A5E1777D874 /* Pods-CBFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CBFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D06E050E966B7DC639E156B5B1641F5 /* Pods-CBFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		20AC74AA1DCC712445A4243967E31CA5 /* XenditCCToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XenditCCToken.swift; path = Xendit/Models/XenditCCToken.swift; sourceTree = "<group>"; };
 		26141ABFB7D2E1D3F5BCA5300633E42E /* Pods_CBFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8947521C15ACCD2DA8FB3DFA56E9C1 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Xendit/Extensions.swift; sourceTree = "<group>"; };
 		2DD7E3869B75926C1C2F8CF37CD556A4 /* Pods-CBFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		341C3B17CFBD36F20574355E6040A4C5 /* CBFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBFramework.debug.xcconfig; sourceTree = "<group>"; };
 		3D4FF2CDB76044B0551F06C3BD685CAE /* Pods-CBFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		41074D69FA23AAB7EAF223C6F7178BD0 /* CBFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CBFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		48157FF78CA4925BCD6E72796288912E /* CBFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBFramework-dummy.m"; sourceTree = "<group>"; };
+		4B0F9ECDC2C10636011960EF84F4D214 /* CBFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBFramework.release.xcconfig; sourceTree = "<group>"; };
 		4C5C14A880AEBEFADA388D410B92A0ED /* XenditAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XenditAuthentication.swift; path = Xendit/Models/XenditAuthentication.swift; sourceTree = "<group>"; };
 		51706AF7233A2AE6B3A52BE37B0B2BDC /* Pods-CBFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CBFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		54EEA3C608A3D82A49146B2DC02CF6B7 /* Pods-CBFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBFramework_Example-dummy.m"; sourceTree = "<group>"; };
-		57E7EA0C3E6160659794192D57CC147E /* ic-close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic-close.png"; sourceTree = "<group>"; };
-		5C7CCCE071CAC0AD89040C33BFD88323 /* PaymentPageViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PaymentPageViewController.xib; path = CBFramework/Classes/PaymentPageViewController.xib; sourceTree = "<group>"; };
 		5DF795796A3F96094A58D4F811CACD47 /* WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = Xendit/WebViewController/WebViewController.swift; sourceTree = "<group>"; };
 		604710342A327DF366ABE6084FFA874A /* LogSanitizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogSanitizer.swift; path = Xendit/Log/LogSanitizer.swift; sourceTree = "<group>"; };
-		61841ED59F71CB078C9155434AA556A2 /* CBFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBFramework-umbrella.h"; sourceTree = "<group>"; };
-		629317579BCD8A5A83A55C4802E62DC7 /* AddCardXdViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddCardXdViewController.swift; path = CBFramework/Classes/AddCardXdViewController.swift; sourceTree = "<group>"; };
+		6155FB158EA7B7223099D19D88E89B1D /* CBFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBFramework.debug.xcconfig; sourceTree = "<group>"; };
 		633CEF20C4742A3E8BDB84D9A0F5E5CC /* CardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardData.swift; path = Xendit/Models/CardData.swift; sourceTree = "<group>"; };
 		6697EDB4E2022B4EA6F835DC20B19BF1 /* AuthenticationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationData.swift; path = Xendit/Models/AuthenticationData.swift; sourceTree = "<group>"; };
-		67BF4A9227015A680066C674 /* CBFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBFramework.framework; path = CBFramework/CBFramework.framework; sourceTree = "<group>"; };
-		6D8A22FE9061E15AD726E87B0F2D5703 /* Xendit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xendit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E93A776E290BE2B2917A440EBAA529C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6F599007420D1AD743D841557CCE6A58 /* CBFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67359FBA2706E7D1001B817D /* CBFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CBFramework.framework; path = CBFramework/CBFramework.framework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		741BCE43CB1A149521F2AAB865CDB786 /* Pods-CBFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		758FF22453493686666DB1E830119204 /* Xendit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Xendit-dummy.m"; sourceTree = "<group>"; };
 		79642E80E3CCBC45CE57B197725E68E1 /* Pods-CBFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		7CA17BBB35B5C8A3863E79AC3C406C9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DDB85EC14E91085FAFEC81289253883 /* Pods-CBFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		80CC2BEB9A9DA1B7B6B807595AC8AC13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8178ACEF9F5A9A72A92B4A4D17B21C41 /* CBFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CBFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84374B9DD5FBC76D59B306075BAFD9B1 /* Pods-CBFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		8D46752C19A7B8FD8EB388E63FE88C74 /* Xendit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Xendit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5903C3E6F159F4DCE13701C0FDD54C /* PaymentPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentPageViewController.swift; path = CBFramework/Classes/PaymentPageViewController.swift; sourceTree = "<group>"; };
 		907131899FE6F26B1F018EAD76CF1188 /* ISHLogDNAService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHLogDNAService.h; path = Xendit/Log/LogDNA/ISHLogDNAService.h; sourceTree = "<group>"; };
 		93F0BE417D3429DD125BF325F6EE54D5 /* WebViewConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebViewConstants.swift; path = Xendit/WebViewController/WebViewConstants.swift; sourceTree = "<group>"; };
 		9588BBDD908812E28C0D654452A28672 /* Xendit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Xendit.debug.xcconfig; sourceTree = "<group>"; };
@@ -145,39 +121,32 @@
 		99B234F081D298341DA6BA76531C4532 /* Pods-CBFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CBFramework_Example.modulemap"; sourceTree = "<group>"; };
 		9D07C147A9360FC01BEA19E079B93BEC /* IDFAHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDFAHelper.h; path = Xendit/Utils/IDFAHelper.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F2A87C68F355BF3E13ECF22B5197879 /* CBFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CBFramework.modulemap; sourceTree = "<group>"; };
-		ACD2C6A677AFADAB939B7D9419FBB344 /* CBFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBFramework-prefix.pch"; sourceTree = "<group>"; };
 		B00300BD9231BF52AB308D08A8EE73C2 /* Xendit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Xendit-Info.plist"; sourceTree = "<group>"; };
 		B5BA8DD88B8E991258BE78BBAD4FC165 /* Pods-CBFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CBFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B6833DC141E84C830122C854079F052B /* Fingerprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fingerprint.swift; path = Xendit/Utils/Fingerprint.swift; sourceTree = "<group>"; };
 		B6F32475BA28CA9948C5B73074AF1B1C /* Pods-CBFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC8D9FDA2A3FD736BA730188A0D6B4D5 /* Xendit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Xendit.h; path = Xendit/Xendit.h; sourceTree = "<group>"; };
 		BEFA5195A6D54BA01BAAB68BBB7DF630 /* Pods-CBFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBFramework_Example-Info.plist"; sourceTree = "<group>"; };
-		C1EE3C51F27AA61959BAEE306163F838 /* CBFramework.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBFramework.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E6A9AE64B805703C4FF5604717F84F /* XenditError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XenditError.swift; path = Xendit/XenditError.swift; sourceTree = "<group>"; };
 		C71DF4763D78C20F9652D54B451E8DAD /* Xendit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Xendit.release.xcconfig; sourceTree = "<group>"; };
-		CB7AFA7CE8D28749878C2FFC666134A0 /* PaymentMethodListViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PaymentMethodListViewController.xib; path = CBFramework/Classes/PaymentMethodListViewController.xib; sourceTree = "<group>"; };
-		D4AEC0EF6095D8F33221905A2C21C1ED /* PaymentHistoryViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PaymentHistoryViewController.xib; path = CBFramework/Classes/PaymentHistoryViewController.xib; sourceTree = "<group>"; };
-		D72707F13FEBB6E6F871042FFEB7CC1E /* CBFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CBFramework-Info.plist"; sourceTree = "<group>"; };
+		D6E2155D21E93E124C8FDD21F430EB59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D8BF4E569A52115DFF9E58A777E87105 /* Xendit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Xendit.swift; path = Xendit/Xendit.swift; sourceTree = "<group>"; };
 		DABCDC4294171D2C4B69E7800DCB9755 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Xendit/Log/Log.swift; sourceTree = "<group>"; };
 		E0AE0E4F62FFA455EC61C740FF00CC09 /* Xendit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Xendit-prefix.pch"; sourceTree = "<group>"; };
 		E1953C29B22A843F969FB32999F1CA68 /* ISHLogDNAService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHLogDNAService.m; path = Xendit/Log/LogDNA/ISHLogDNAService.m; sourceTree = "<group>"; };
-		E9FF7A52B9B64F0A8CDFD6939F189D97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EA183C2DCD66EB8AF8402DBD82E8A95A /* Xendit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Xendit.modulemap; sourceTree = "<group>"; };
 		EA57B482B97EFD802E30CA7563ABB097 /* XenditTokenCredentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XenditTokenCredentials.swift; path = Xendit/Models/XenditTokenCredentials.swift; sourceTree = "<group>"; };
 		ECC40638A0F57ACB9BA46B331B7B0D41 /* Pods_CBFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDD2E4049E25828BB69F0D77562244E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F3C0A6F9EB9C42A96DB4EF07EE0947D5 /* Pods-CBFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F9319058BE186D593EAA84890A306AE9 /* CBFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBFramework.release.xcconfig; sourceTree = "<group>"; };
-		FC9797E3FB087F6681F9266B4335CE2C /* ic-back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic-back.png"; sourceTree = "<group>"; };
-		FCA2294994BC669B92318BB75D1989EB /* PaymentHistoryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentHistoryViewController.swift; path = CBFramework/Classes/PaymentHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B491BAB65A6437841E359FBB0CA79623 /* Frameworks */ = {
+		2997B949FC4856BE9F6159EDEB22A52E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C992F0643EADA00105E7B39D9B1C72BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,29 +158,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C25108AA66E463884AFB9C094DE3E424 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7EBADC40379AB4DDF2836AADA2CB411 /* Foundation.framework in Frameworks */,
-				213E8F32088E1FFD09769EC12706244A /* UIKit.framework in Frameworks */,
-				CA2EFD345C8E98E50BA684F9C4787255 /* Xendit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FD9D25B884A336F167BC4D25671ED70B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C029EF19231F89638FB60AA5C3C45549 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF1ECFA542FBC59593AEDB46A9831420 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCC619BF1C4C0AA5D59E1BECCF9CA10C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,16 +185,6 @@
 			path = "Target Support Files/Pods-CBFramework_Tests";
 			sourceTree = "<group>";
 		};
-		110E07AC2818E90A5597C5FA4DD9C49D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				41074D69FA23AAB7EAF223C6F7178BD0 /* CBFramework.podspec */,
-				6E93A776E290BE2B2917A440EBAA529C /* LICENSE */,
-				80CC2BEB9A9DA1B7B6B807595AC8AC13 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1147F5CB099742D1804BFA0686D8A5D7 /* Pods-CBFramework_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,52 +202,61 @@
 			path = "Target Support Files/Pods-CBFramework_Example";
 			sourceTree = "<group>";
 		};
-		1B7309E243282F01F881091F48A4E718 /* Frameworks */ = {
+		1C5F6C7F0803E89891A8DEB9C4590304 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6D8A22FE9061E15AD726E87B0F2D5703 /* Xendit.framework */,
-				2D861FDC0367FF4AFD598A1EF53791E4 /* iOS */,
+				6155FB158EA7B7223099D19D88E89B1D /* CBFramework.debug.xcconfig */,
+				4B0F9ECDC2C10636011960EF84F4D214 /* CBFramework.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CBFramework";
 			sourceTree = "<group>";
 		};
-		2D861FDC0367FF4AFD598A1EF53791E4 /* iOS */ = {
+		3950FF012C0D1F8CDEDB022CD20C4416 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7CA17BBB35B5C8A3863E79AC3C406C9A /* Foundation.framework */,
-				E9FF7A52B9B64F0A8CDFD6939F189D97 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6323E3615001376E9AA5DDEDEEF36628 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EF8D41A88C80603D37E843E6BC8B0822 /* CBFramework */,
+				66998865CBA838B75730C6D3BDD8EF02 /* CBFramework */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		65565ACABFC7B29F0F50261A8D6671F1 /* Assets */ = {
+		44AA36B4F02E6715F3EC39410A4C2AA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC9797E3FB087F6681F9266B4335CE2C /* ic-back.png */,
-				57E7EA0C3E6160659794192D57CC147E /* ic-close.png */,
-			);
-			name = Assets;
-			path = CBFramework/Assets;
-			sourceTree = "<group>";
-		};
-		7BB928E170EAD3F1D5363F9247D8A426 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C1EE3C51F27AA61959BAEE306163F838 /* CBFramework.bundle */,
-				6F599007420D1AD743D841557CCE6A58 /* CBFramework.framework */,
 				26141ABFB7D2E1D3F5BCA5300633E42E /* Pods_CBFramework_Example.framework */,
 				ECC40638A0F57ACB9BA46B331B7B0D41 /* Pods_CBFramework_Tests.framework */,
 				8D46752C19A7B8FD8EB388E63FE88C74 /* Xendit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66998865CBA838B75730C6D3BDD8EF02 /* CBFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE1E4A099E35E919FD3E0A4BB1BF1F /* Frameworks */,
+				6F3D86D604222F1246EFBF619245F6A0 /* Pod */,
+				1C5F6C7F0803E89891A8DEB9C4590304 /* Support Files */,
+			);
+			name = CBFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F3D86D604222F1246EFBF619245F6A0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8178ACEF9F5A9A72A92B4A4D17B21C41 /* CBFramework.podspec */,
+				D6E2155D21E93E124C8FDD21F430EB59 /* LICENSE */,
+				EDDD2E4049E25828BB69F0D77562244E /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		95989244D0138670FDF80ECA40BAD0BA /* Pods */ = {
@@ -321,10 +271,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6323E3615001376E9AA5DDEDEEF36628 /* Development Pods */,
-				1B7309E243282F01F881091F48A4E718 /* Frameworks */,
+				3950FF012C0D1F8CDEDB022CD20C4416 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				95989244D0138670FDF80ECA40BAD0BA /* Pods */,
-				7BB928E170EAD3F1D5363F9247D8A426 /* Products */,
+				44AA36B4F02E6715F3EC39410A4C2AA2 /* Products */,
 				CFD3A7F64A5CFA727E7448B8317DCE52 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -336,6 +286,22 @@
 				002C1452DB99F96C03717AE92FCE387A /* Pods-CBFramework_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6AE1E4A099E35E919FD3E0A4BB1BF1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67359FBA2706E7D1001B817D /* CBFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E066626B433DD850BB4368B422E584E3 /* Support Files */ = {
@@ -351,42 +317,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Xendit";
-			sourceTree = "<group>";
-		};
-		E2050A3B67284415BD837BA31F0C5736 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9F2A87C68F355BF3E13ECF22B5197879 /* CBFramework.modulemap */,
-				48157FF78CA4925BCD6E72796288912E /* CBFramework-dummy.m */,
-				D72707F13FEBB6E6F871042FFEB7CC1E /* CBFramework-Info.plist */,
-				ACD2C6A677AFADAB939B7D9419FBB344 /* CBFramework-prefix.pch */,
-				61841ED59F71CB078C9155434AA556A2 /* CBFramework-umbrella.h */,
-				341C3B17CFBD36F20574355E6040A4C5 /* CBFramework.debug.xcconfig */,
-				F9319058BE186D593EAA84890A306AE9 /* CBFramework.release.xcconfig */,
-				11323D3E08BC39E709DC3CBE1BC027CC /* ResourceBundle-CBFramework-CBFramework-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CBFramework";
-			sourceTree = "<group>";
-		};
-		EF8D41A88C80603D37E843E6BC8B0822 /* CBFramework */ = {
-			isa = PBXGroup;
-			children = (
-				629317579BCD8A5A83A55C4802E62DC7 /* AddCardXdViewController.swift */,
-				01BEDF8A63398D9D8386F560B7581F01 /* CashbacFrameworkSDK.swift */,
-				FCA2294994BC669B92318BB75D1989EB /* PaymentHistoryViewController.swift */,
-				D4AEC0EF6095D8F33221905A2C21C1ED /* PaymentHistoryViewController.xib */,
-				01DBAC4FA75385AA4A1A894FF5E8DFBC /* PaymentMethodListViewController.swift */,
-				CB7AFA7CE8D28749878C2FFC666134A0 /* PaymentMethodListViewController.xib */,
-				8D5903C3E6F159F4DCE13701C0FDD54C /* PaymentPageViewController.swift */,
-				5C7CCCE071CAC0AD89040C33BFD88323 /* PaymentPageViewController.xib */,
-				67BF4A9227015A680066C674 /* CBFramework.framework */,
-				65565ACABFC7B29F0F50261A8D6671F1 /* Assets */,
-				110E07AC2818E90A5597C5FA4DD9C49D /* Pod */,
-				E2050A3B67284415BD837BA31F0C5736 /* Support Files */,
-			);
-			name = CBFramework;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F8ED8F2E1D2440C4BEBE19EA64235B5C /* Xendit */ = {
@@ -428,22 +358,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3713EE7BCAC6F53CA8F724582725CF34 /* Headers */ = {
+		678EE69A59495BE5A0A881D4F0FA5EBC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F14A525B2B9B0DBED53A58F7097158A /* CBFramework-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68D7ECF67FD9665E155E99FB89048364 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A74357927CA04EA9247497A4808D7395 /* IDFAHelper.h in Headers */,
-				83199960AE187000114A701DDD1EB398 /* ISHLogDNAService.h in Headers */,
-				FA50DE5D6BD9AE608C3D3688179A6A0E /* Xendit-umbrella.h in Headers */,
-				6256C5FB9E8DB88BC6865930710D3637 /* Xendit.h in Headers */,
+				FEAE3873569B1FA300ED97F585EFABED /* IDFAHelper.h in Headers */,
+				B2CE7181FCA9FF1CA5E9E1A7FE4F276E /* ISHLogDNAService.h in Headers */,
+				B804558510882DF2137BD5433C08EB35 /* Xendit-umbrella.h in Headers */,
+				B39BAF25FEE1537ECD3448EA980A3ABA /* Xendit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,26 +380,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CF9F7573B46B7273AE427238FBA1A05 /* CBFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8D65C12F00F3D9DCB1FFBD77BAAF506 /* Build configuration list for PBXNativeTarget "CBFramework" */;
-			buildPhases = (
-				3713EE7BCAC6F53CA8F724582725CF34 /* Headers */,
-				288865C280BAF74048C3300FF47E9211 /* Sources */,
-				C25108AA66E463884AFB9C094DE3E424 /* Frameworks */,
-				83834AEB59063A561B9AFC367119B5C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CA8E228823B059307BF5681BDAACB59 /* PBXTargetDependency */,
-				37BE72F7B0B856FAF25E36E78429EE9E /* PBXTargetDependency */,
-			);
-			name = CBFramework;
-			productName = CBFramework;
-			productReference = 6F599007420D1AD743D841557CCE6A58 /* CBFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		332A453FB5BF2AA911E66392DC256D06 /* Pods-CBFramework_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FCBECAE848A1FE208C4DE6A50B0E05E /* Build configuration list for PBXNativeTarget "Pods-CBFramework_Tests" */;
@@ -490,7 +392,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B65E06C95BA3228ADCF6527C30D10C3E /* PBXTargetDependency */,
+				533DACD8A14AE21601AC46692AAE9C28 /* PBXTargetDependency */,
 			);
 			name = "Pods-CBFramework_Tests";
 			productName = "Pods-CBFramework_Tests";
@@ -499,12 +401,12 @@
 		};
 		4F12DD83FE234840A1AE8CD56066CC2C /* Xendit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A93AF26FE3588AD33E7B152AAA48EB1 /* Build configuration list for PBXNativeTarget "Xendit" */;
+			buildConfigurationList = 31C015A784B2A9353A91334163B65764 /* Build configuration list for PBXNativeTarget "Xendit" */;
 			buildPhases = (
-				68D7ECF67FD9665E155E99FB89048364 /* Headers */,
-				35EC278D738BE456456907B4E7C202D0 /* Sources */,
-				FF1ECFA542FBC59593AEDB46A9831420 /* Frameworks */,
-				4633F11978E19459661C8229F41E5F28 /* Resources */,
+				678EE69A59495BE5A0A881D4F0FA5EBC /* Headers */,
+				34A4CEB1CCBB6F4282E02C863C5D1184 /* Sources */,
+				2997B949FC4856BE9F6159EDEB22A52E /* Frameworks */,
+				E312FF3BF14E27B89BB1DC5083564B6F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -514,23 +416,6 @@
 			productName = Xendit;
 			productReference = 8D46752C19A7B8FD8EB388E63FE88C74 /* Xendit.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		67FB6BA776CF391F4A475554B5620AD9 /* CBFramework-CBFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FEB4205A5B73CF05B0064F74AF2E3611 /* Build configuration list for PBXNativeTarget "CBFramework-CBFramework" */;
-			buildPhases = (
-				DFDE9D7F97302D24CCDC72C5DE98D615 /* Sources */,
-				B491BAB65A6437841E359FBB0CA79623 /* Frameworks */,
-				23DA879B08F40D07156C496FFA805525 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "CBFramework-CBFramework";
-			productName = "CBFramework-CBFramework";
-			productReference = C1EE3C51F27AA61959BAEE306163F838 /* CBFramework.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		AD83B7BEAE346FEA293B90531E2479FF /* Pods-CBFramework_Example */ = {
 			isa = PBXNativeTarget;
@@ -544,8 +429,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				A2C4504DFE4A2C662DFB882BF8560FBD /* PBXTargetDependency */,
-				022C2CEEB76EA185496D773093A137C5 /* PBXTargetDependency */,
+				90EAD606CFD9BF78FD837B1E5668A393 /* PBXTargetDependency */,
+				9BD0FF27BCC9026DFB29615C9AC329FA /* PBXTargetDependency */,
 			);
 			name = "Pods-CBFramework_Example";
 			productName = "Pods-CBFramework_Example";
@@ -570,12 +455,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7BB928E170EAD3F1D5363F9247D8A426 /* Products */;
+			productRefGroup = 44AA36B4F02E6715F3EC39410A4C2AA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0CF9F7573B46B7273AE427238FBA1A05 /* CBFramework */,
-				67FB6BA776CF391F4A475554B5620AD9 /* CBFramework-CBFramework */,
 				AD83B7BEAE346FEA293B90531E2479FF /* Pods-CBFramework_Example */,
 				332A453FB5BF2AA911E66392DC256D06 /* Pods-CBFramework_Tests */,
 				4F12DD83FE234840A1AE8CD56066CC2C /* Xendit */,
@@ -584,37 +468,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23DA879B08F40D07156C496FFA805525 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4544DDBE7DF97E9C8E34FC353FC004EF /* ic-back.png in Resources */,
-				2D1CC99C45F28DDA5C1D934948131904 /* ic-close.png in Resources */,
-				6439499CA0A8DA3769CA0507F75F984C /* PaymentHistoryViewController.xib in Resources */,
-				B0CEC0E581ADEB62A4130D43949E6EBC /* PaymentMethodListViewController.xib in Resources */,
-				4118C58C1EAE5A27EEBF365FAC005A62 /* PaymentPageViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		39D65D52916E82F9BCE0522355007D20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4633F11978E19459661C8229F41E5F28 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83834AEB59063A561B9AFC367119B5C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BE20E4519E210AE9DE7EA0F8958D74E /* CBFramework.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,47 +482,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		288865C280BAF74048C3300FF47E9211 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		E312FF3BF14E27B89BB1DC5083564B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10FDA89817CA2D86140879791ED8A597 /* AddCardXdViewController.swift in Sources */,
-				5359093AAAC9915274B363A95BAFAA14 /* CashbacFrameworkSDK.swift in Sources */,
-				D75450FA3DA6F48F472CFD55AACB3AFA /* CBFramework-dummy.m in Sources */,
-				B896E0BF9CF50A8075FE1141142AD5A2 /* PaymentHistoryViewController.swift in Sources */,
-				FF7C975A26E9A9915C48B127F9E3E561 /* PaymentHistoryViewController.xib in Sources */,
-				8653E70BB1D4F8BEF5512A0314DBA063 /* PaymentMethodListViewController.swift in Sources */,
-				866AD59946427B6FB8658DF42BCDBD51 /* PaymentMethodListViewController.xib in Sources */,
-				B0196E028BF652779388F9E605CCDD9B /* PaymentPageViewController.swift in Sources */,
-				5E6302BEBDCEE974ECB9D7A27AB37AE6 /* PaymentPageViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35EC278D738BE456456907B4E7C202D0 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A4CEB1CCBB6F4282E02C863C5D1184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7909C176A81C5F2AF33484B53D752E9C /* AuthenticationData.swift in Sources */,
-				5FB9901E4F888110E7A88C4AA8E29116 /* AuthenticationWebviewController.swift in Sources */,
-				40F04870E8054212FA0D6A822BDC7D01 /* CardData.swift in Sources */,
-				6CB58E6D75165B5AFE913FAA6D0ED474 /* Extensions.swift in Sources */,
-				E949B70804D90B0773D1D8016EBBC1B6 /* Fingerprint.swift in Sources */,
-				125D1A2B4FA5BA7A0D6C49924C02CCFA /* IDFAHelper.m in Sources */,
-				85A181F7DEF1BF0EABA6775FB0705FFE /* ISHLogDNAService.m in Sources */,
-				C3A8F236826E94931D323BC318247281 /* Log.swift in Sources */,
-				613E2B75A09AD768216DFB50E2134FDE /* LogSanitizer.swift in Sources */,
-				578B6356AB1FA36E39E41FDB2541B44D /* WebViewConstants.swift in Sources */,
-				694ADAB92F6B2B4D96CBDD2D619F8D0A /* WebViewController.swift in Sources */,
-				3C28BDBCF4E0D5C19F76F3717C11E48D /* Xendit-dummy.m in Sources */,
-				164A11DDB716E7DB6239284EDBC1D908 /* Xendit.swift in Sources */,
-				70B0F1CE577F4E3EF7EEE63C8DE2645F /* Xendit3DSRecommendation.swift in Sources */,
-				193735C25FA938092018C1AFFFC97CE7 /* XenditAuthentication.swift in Sources */,
-				3EACB0FA2058ED40C8366889CA54A581 /* XenditCCToken.swift in Sources */,
-				CA9D3E08747DB98C27E4A82BEE32CF86 /* XenditError.swift in Sources */,
-				865BEBB8D6821AADFC0D461960E59DD3 /* XenditTokenCredentials.swift in Sources */,
+				E40099E5CDD1E71851979554C218FBD1 /* AuthenticationData.swift in Sources */,
+				5C1B3D3DDEF50800FA805C58236603EC /* AuthenticationWebviewController.swift in Sources */,
+				3859EDD881220DBA0DA76BBE13991CEB /* CardData.swift in Sources */,
+				7AB9020E4CBF654CFB41B54316327473 /* Extensions.swift in Sources */,
+				410365496CEF12D46A08AE7D238FD681 /* Fingerprint.swift in Sources */,
+				928365BB9490B7CFF55F8B78EB4306FF /* IDFAHelper.m in Sources */,
+				DC853088B3AB83A96A512919A62E0099 /* ISHLogDNAService.m in Sources */,
+				0E004AD3849C1AB644241D86C32783E1 /* Log.swift in Sources */,
+				E9666152F89F89D958C6364D9B8F0760 /* LogSanitizer.swift in Sources */,
+				CD0CAC6DD077ED2826513FF4B96D18D5 /* WebViewConstants.swift in Sources */,
+				5CC955F52AB146814CBAF4A6DBC47F72 /* WebViewController.swift in Sources */,
+				8CB4AB964912BCD31389F466CC39CA66 /* Xendit-dummy.m in Sources */,
+				C217AFA28C79205504B38E838DD41428 /* Xendit.swift in Sources */,
+				0221EA45B144BBFF735B0122FA984B5E /* Xendit3DSRecommendation.swift in Sources */,
+				1A7A0E6C8A4DFA437CB367E412F3080E /* XenditAuthentication.swift in Sources */,
+				843DD7DDAD1279CBE61ABAD2F9E71603 /* XenditCCToken.swift in Sources */,
+				9312DE84D38F1C217FF7582671323ACA /* XenditError.swift in Sources */,
+				BA01B434613F13F10074149FC35BEABA /* XenditTokenCredentials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,45 +533,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFDE9D7F97302D24CCDC72C5DE98D615 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		022C2CEEB76EA185496D773093A137C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Xendit;
-			target = 4F12DD83FE234840A1AE8CD56066CC2C /* Xendit */;
-			targetProxy = B75BE721431BC18E62BDBEBE4BEE63FD /* PBXContainerItemProxy */;
-		};
-		0CA8E228823B059307BF5681BDAACB59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CBFramework-CBFramework";
-			target = 67FB6BA776CF391F4A475554B5620AD9 /* CBFramework-CBFramework */;
-			targetProxy = 5A0480893E9F5C6243F9018F9E3E7343 /* PBXContainerItemProxy */;
-		};
-		37BE72F7B0B856FAF25E36E78429EE9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Xendit;
-			target = 4F12DD83FE234840A1AE8CD56066CC2C /* Xendit */;
-			targetProxy = 802846942AB38A278BE8DAF9D88EF9B4 /* PBXContainerItemProxy */;
-		};
-		A2C4504DFE4A2C662DFB882BF8560FBD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CBFramework;
-			target = 0CF9F7573B46B7273AE427238FBA1A05 /* CBFramework */;
-			targetProxy = 8BEECAE36CC19C5763C2782848B4BB10 /* PBXContainerItemProxy */;
-		};
-		B65E06C95BA3228ADCF6527C30D10C3E /* PBXTargetDependency */ = {
+		533DACD8A14AE21601AC46692AAE9C28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CBFramework_Example";
 			target = AD83B7BEAE346FEA293B90531E2479FF /* Pods-CBFramework_Example */;
-			targetProxy = 8479DA6DFB9A3B97D7333F9CCBD85099 /* PBXContainerItemProxy */;
+			targetProxy = 5424B00A16A81378D733CAD05EE46DB1 /* PBXContainerItemProxy */;
+		};
+		57EAD5F917C1E1998768EB163C1C7C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Xendit;
+			target = 4F12DD83FE234840A1AE8CD56066CC2C /* Xendit */;
+			targetProxy = 581A4ED517DF02620C123058D695BAAF /* PBXContainerItemProxy */;
+		};
+		90EAD606CFD9BF78FD837B1E5668A393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CBFramework;
+			target = 0CF9F7573B46B7273AE427238FBA1A05 /* CBFramework */;
+			targetProxy = 2A43FC99BA7212B004C10523D013BE3B /* PBXContainerItemProxy */;
+		};
+		9BD0FF27BCC9026DFB29615C9AC329FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Xendit;
+			target = 4F12DD83FE234840A1AE8CD56066CC2C /* Xendit */;
+			targetProxy = 243830CF0A633ED600144882EF4F0602 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -827,33 +662,16 @@
 			};
 			name = Debug;
 		};
-		42F501275C228251DF3C5321A71FB439 /* Debug */ = {
+		296153D6ADAF92E5E81631BF6972CF5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9588BBDD908812E28C0D654452A28672 /* Xendit.debug.xcconfig */;
+			baseConfigurationReference = 6155FB158EA7B7223099D19D88E89B1D /* CBFramework.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Xendit/Xendit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Xendit/Xendit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Xendit/Xendit.modulemap";
-				PRODUCT_MODULE_NAME = Xendit;
-				PRODUCT_NAME = Xendit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -883,37 +701,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		749BD41AB608E569BF058016415BC3D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C71DF4763D78C20F9652D54B451E8DAD /* Xendit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Xendit/Xendit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Xendit/Xendit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Xendit/Xendit.modulemap";
-				PRODUCT_MODULE_NAME = Xendit;
-				PRODUCT_NAME = Xendit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -985,9 +772,23 @@
 			};
 			name = Debug;
 		};
-		929B092F26FA4C11956104A7E7572991 /* Debug */ = {
+		8D13559ADEFCD37839C88EC2E9A12004 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 341C3B17CFBD36F20574355E6040A4C5 /* CBFramework.debug.xcconfig */;
+			baseConfigurationReference = 4B0F9ECDC2C10636011960EF84F4D214 /* CBFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990906133BED8184CA7EFC69C880F29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9588BBDD908812E28C0D654452A28672 /* Xendit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -997,37 +798,52 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CBFramework/CBFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CBFramework/CBFramework-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Xendit/Xendit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Xendit/Xendit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CBFramework/CBFramework.modulemap";
-				PRODUCT_MODULE_NAME = CBFramework;
-				PRODUCT_NAME = CBFramework;
+				MODULEMAP_FILE = "Target Support Files/Xendit/Xendit.modulemap";
+				PRODUCT_MODULE_NAME = Xendit;
+				PRODUCT_NAME = Xendit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9A200879A1CD34E9CA34CD4A3B1B4CB8 /* Release */ = {
+		B5E332345E01CBE97E66F09D585B871E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9319058BE186D593EAA84890A306AE9 /* CBFramework.release.xcconfig */;
+			baseConfigurationReference = C71DF4763D78C20F9652D54B451E8DAD /* Xendit.release.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CBFramework";
-				IBSC_MODULE = CBFramework;
-				INFOPLIST_FILE = "Target Support Files/CBFramework/ResourceBundle-CBFramework-CBFramework-Info.plist";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Xendit/Xendit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Xendit/Xendit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CBFramework;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Xendit/Xendit.modulemap";
+				PRODUCT_MODULE_NAME = Xendit;
+				PRODUCT_NAME = Xendit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1092,70 +908,32 @@
 			};
 			name = Release;
 		};
-		DF56E5CD9A12267791B4844F5249B7AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9319058BE186D593EAA84890A306AE9 /* CBFramework.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CBFramework/CBFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CBFramework/CBFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CBFramework/CBFramework.modulemap";
-				PRODUCT_MODULE_NAME = CBFramework;
-				PRODUCT_NAME = CBFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9FBBAE3A69C7E24AC6CA9EB51DDC5BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 341C3B17CFBD36F20574355E6040A4C5 /* CBFramework.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CBFramework";
-				IBSC_MODULE = CBFramework;
-				INFOPLIST_FILE = "Target Support Files/CBFramework/ResourceBundle-CBFramework-CBFramework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CBFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A93AF26FE3588AD33E7B152AAA48EB1 /* Build configuration list for PBXNativeTarget "Xendit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42F501275C228251DF3C5321A71FB439 /* Debug */,
-				749BD41AB608E569BF058016415BC3D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2FCBECAE848A1FE208C4DE6A50B0E05E /* Build configuration list for PBXNativeTarget "Pods-CBFramework_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B3143008EF496AF58609992EC12A922 /* Debug */,
 				1FD7EC1E99A1B731FAC5C3E47BF5C19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C015A784B2A9353A91334163B65764 /* Build configuration list for PBXNativeTarget "Xendit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990906133BED8184CA7EFC69C880F29B /* Debug */,
+				B5E332345E01CBE97E66F09D585B871E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470F2DF542CA27DAB72B5FCA6DEA8D5B /* Build configuration list for PBXAggregateTarget "CBFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296153D6ADAF92E5E81631BF6972CF5E /* Debug */,
+				8D13559ADEFCD37839C88EC2E9A12004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1174,24 +952,6 @@
 			buildConfigurations = (
 				7F554CD00AAC5B1CA59197B7A2DE132A /* Debug */,
 				51967B0971DBA5E8529861127D4BA83E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8D65C12F00F3D9DCB1FFBD77BAAF506 /* Build configuration list for PBXNativeTarget "CBFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				929B092F26FA4C11956104A7E7572991 /* Debug */,
-				DF56E5CD9A12267791B4844F5249B7AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FEB4205A5B73CF05B0064F74AF2E3611 /* Build configuration list for PBXNativeTarget "CBFramework-CBFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9FBBAE3A69C7E24AC6CA9EB51DDC5BC /* Debug */,
-				9A200879A1CD34E9CA34CD4A3B1B4CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - CBFramework (0.1.0):
+  - CBFramework (0.1.2):
     - Xendit (= 2.1.8)
   - Xendit (2.1.8)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CBFramework: 7bbeab649d5ddc4384156526db595df1c9e17733
+  CBFramework: 3e600c9e9d467afb9e4c4c5e8450f554f248bd0f
   Xendit: 8dbd80a352ce1c55c3c48413155cb84cf112e775
 
 PODFILE CHECKSUM: 8ac7042e09fa50ab255fc64e5b49478b4cfc7774

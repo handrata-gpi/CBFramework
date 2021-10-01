@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         cbToken = CashbacFrameworkSDK.configure(withPubKey: pubKey,
                                                 partnerPubId: partnerPubId,
                                                 userIdentifier: userId)
         lblBalance.text = "\(CashbacFrameworkSDK.sharedInstance.getBalance().intValue)"
+        _ = CashbacFrameworkSDK.sharedInstance.getListCard(token: cbToken, parentViewController: self)
     }
     
     override func didReceiveMemoryWarning() {

@@ -175,11 +175,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CBFramework/CBFramework.framework"
+  install_framework "${PODS_ROOT}/../../CBFramework/CBFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Xendit/Xendit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CBFramework/CBFramework.framework"
+  install_framework "${PODS_ROOT}/../../CBFramework/CBFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Xendit/Xendit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

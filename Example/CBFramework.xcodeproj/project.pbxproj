@@ -315,7 +315,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CBFramework_Example/Pods-CBFramework_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CBFramework/CBFramework.framework",
+				"${PODS_ROOT}/../../CBFramework/CBFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Xendit/Xendit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
